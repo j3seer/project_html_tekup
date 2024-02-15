@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg pt-2">
+        <a class="navbar-brand" href="index.html">Jasser Chebbi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row justify-content-center" style="margin-top:10%;">
+            <div class="col-md-4">
+                <div class="card bg-dark">
+                    <h1 class="card-header">Project 1</h1>
+                    <img src="./images/scoreboard.png"  class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Custom LiveScoreboard for CTFd</h5>
+                        <p class="card-text">
+                            This is a live scoreboard integration project with ctfd, which includes two things:<br>
+
+                            <li>a CTFd plugin for live updates</li>
+                            <li>A nodejs based livescoreboard app</li></p>
+                        <a href="https://github.com/j3seer/CTFd-Live-Scoreboard-Integration" class="btn btn-primary">View Project <i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-dark">
+                    <h1 class="card-header">Project 2</h1>
+                    <img src="./images/ctfmanager.jpg" width="150" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CTF Manager</h5>
+                        <p class="card-text">This bot is built to make it easier to manage a large CTF team on discord, it'll be able to remind you of CTFs and manage your team's participation.</p>
+                        <a href="https://github.com/j3seer/ctf-manager" class="btn btn-primary">View Project <i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <span class="text-muted">© 2024 My Portfolio</span>
+        </div>
+    </footer>
+
+</body>
+
+</html>

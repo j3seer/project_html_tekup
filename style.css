@@ -1,0 +1,65 @@
+
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+
+}
+body {
+    background-color: #1a1a1a;
+    color:var(--white);
+    
+}
+
+.jumbotron {
+    padding: 100px 0;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #1a1a1a; 
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    color:var(--white);
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color:var(--white);    
+    font-weight: bold;
+}
+
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    background-color: var(--blue); 
+    border-color: var(--blue);
+}
+
+.btn-primary:hover {
+    background-color: var(--blue); 
+    border-color: var(--blue);
+}
+
+/* center images in carousel */
+.carousel-inner img {
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+}
